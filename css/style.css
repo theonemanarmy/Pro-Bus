@@ -1,0 +1,646 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+
+}
+html{
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    color: white;
+    padding: 230px 0 30px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+a:hover {
+   text-decoration: none;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+  
+}
+
+/*navbar 2*/
+.navbar-navegar{
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+    position: relative;
+}
+
+.navegar-pagina{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-navegar .navegar-pagina li.navegar-pagina-item a{
+    display: block;
+    padding: 1.5em 0;
+    color: #011B32;
+    font-weight: bold;
+}
+
+.logo{
+    width: 60%;
+    /*margin-left: -315px;*/
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+/*/navbar 2*/
+
+.navbar{
+    justify-content: flex-end;
+    padding: 0;
+}
+
+#nav {
+    background-color: #011B32;
+    color: #011B32;
+    z-index: 100; 
+    height: 45px;
+    position: relative;
+}
+
+li.nav-item , a.nav-link, .navbar-brand {
+    color: white;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;   
+}
+.navbar-brand:hover {
+    color: white;
+}
+ a.nav-link:hover {
+    color: #001F38;   
+}
+
+li {
+    list-style: none;
+}
+.mostrar {
+ display: none;
+}
+
+/* servicios*/
+.servicios {
+    padding: 30px 0 50px 0;
+}
+
+.servicios p{
+    text-align: center;
+}
+
+.servicios img{
+    display: block;
+    margin: auto;
+}
+.titulo-servicios {
+    
+  text-align: center;
+    color: #333333;
+    padding: 70px 0 0 0;
+}
+.subtitulo-servicios {
+    text-align: center;
+}
+.imagen-servicios{
+    padding-bottom: 15px;
+}
+/*---------------- botones ----------------*/
+a.color:hover {
+    color:#001F38;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+a.color {
+    color:white;
+}
+.btn-1 {
+    font-weight: 400;
+    margin: 50px 0 200px 16px;
+    width: 185px;
+    height: 50px;
+    background: #61aa8b;
+    border: 2px solid#61aa8b;
+    color: white;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-1:hover, .btn-3:hover {
+    background: #001F38;
+    border: #001F38;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-enviar {
+    background: #001F38;
+    width: 100%;
+    height: 40px;
+    border: #001F38;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-enviar:hover {
+    background: #001F38;
+    border: #001F38;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-3 {
+    font-weight: 600;
+    margin: 40px 0 0 0;
+    width: 181px;
+    height: 50px;
+    background: white;
+    border: 2px solid white;
+    color: #001F38;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+}
+.btn-4{
+    font-weight: 600;
+    margin: 40px 0 0 0;
+    width: 181px;
+    height: 50px;
+    background: #001F38;
+    border: 2px solid white;
+    color: #fff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-3:hover {
+    background: #001F38;
+    border: 2px solid white;;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.white {
+    color:white;
+}
+/*---------------- intro -----------------*/
+#intro {
+    z-index: 1;
+    background: linear-gradient( to left,
+        rgba(0,0,0, 0.6), 
+        rgba(0,0,0, .2)
+      ), url("../images/icons/bg-principal.jpg") no-repeat ;
+    background-size: cover;
+    padding: 0 0 0px 0px;
+    position: relative;
+}
+#intro::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 37, 71, .8);
+}
+
+
+
+h2.logo {
+    font-weight: 800;
+}
+h3.subt {
+    color: white;
+}
+h2.text-center {
+    text-align: center!important;
+    font-weight: 700;
+}
+
+.contacto {
+    background-color: rgba(147, 143, 165, .7);
+    margin: 70px 30px 70px 0;
+    padding: 28px;
+    border-radius: 10px;
+}
+.contacto .contact-texto{
+    line-height: 1.6;
+}
+
+h2.cont {
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+    
+}
+
+/* -------------Envios-----------------*/
+
+.envios {
+  background: #001F38;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    color: white;
+    padding: 2em 0;
+}
+.mostrar-1 {
+    display: none !important;
+}
+.envios-mapa {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.envios2-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 0 5px 0;
+}
+.envios3-title{
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    padding: 15px 0 5px 0;
+}
+
+h1.envios {
+    margin-bottom: -20px;
+    margin-top:-25px;
+}
+
+.mostrar-imagen-servicios {
+    display: none;
+}
+.services-padding {
+    padding: 20px 10px 30px 10px;
+}
+
+.white.strong {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.green {
+    background: #001F38;
+    color: white;
+    padding-bottom: 70px;
+    justify-content: center;
+    text-align: center;
+}
+p.transportacion {
+    font-size: 14px;
+}
+.transporte-service {
+    font-weight: 600;
+    text-align: center;
+}
+.transporte-service img {
+    margin-right: 13px;
+    margin-top: -31px;
+}
+
+.gray {
+    background:  #EDEDED;
+    text-align: center;
+}
+.img-world {
+    padding: 60px 0 10px 0;
+    text-align: center;
+    justify-content: center;
+}
+.padding-top-cobertura{
+  padding: 30px 0 10px 0;  
+}
+
+.cobertura{
+    padding: 50px 0;
+}
+
+.cobertura .clientes-logo{
+    display: block;
+    margin:auto;
+}
+
+.ventajas {
+    background-color: #FAFAFA;
+}
+.ventajas .img-check{
+    display: block;
+    margin:auto;
+}
+
+.ventajas th{
+    font-weight: 100;
+}
+.ventajas th[scope="row"]{
+    color: #8F8F8F;
+}
+
+.ventajas .btn-download{
+    display: block;
+    margin: auto;
+    position: relative;
+    background: #001F38;
+    width: 30%;
+    padding: 10px;
+    border: #001F38;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.ventajas .btn-download:hover{
+    background: #001F38;
+    border: #001F38;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.ventajas-margen {
+    padding: 100px 0;
+    text-align: center;
+}
+.form-control:hover , .form-control:focus {
+    border: 3px solid #001F38 !important;
+    outline-style: none;
+    color: #001F38;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* -------------faq-----------------*/
+
+footer {
+    background: #001F38;
+    padding: 90px 0 70px 0;
+}
+
+footer h3.white{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li{
+    text-align: center;
+}
+
+footer ul li a{
+    display: block;
+    padding-bottom: 15px;
+    color: white;
+}   
+
+footer ul li a:hover{
+    color: #A2832C;
+}
+
+footer .img-logo-footer{
+    padding-bottom: 20px;
+}
+
+h3.footer {
+    font-weight: 800;
+}
+
+
+@media screen and (max-width:1200px){
+    h2.cont {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .btn-1 {
+        font-weight: 600;
+        margin: 50px 0 80px 0;
+        width: 200px;
+        height: 65px;
+    }
+    h1 {
+        color: white;
+        padding: 150px 0 30px;
+        font-weight: 800;
+        font-size: 35px;
+    }
+    h3.subt {
+        color: white;
+        font-size: 25px;
+    }
+    .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+        border: 1px solid #cecece;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        height: auto;
+        width: 150px;
+    }
+    
+}
+
+@media screen and (max-width:992px){ 
+    .contacto {
+        padding: 27px 10px 23px 12px;
+    }
+    h2.cont {
+        font-weight: 600;
+        font-size: 27px;
+        margin-top: 11px;
+    }
+    .ocultar-texto-header {
+      display: none;  
+    }
+
+    #main-nav .menu-bar{
+        width: 7%;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #main-nav .uno, .dos, .tres{
+        height: 3px;
+        background: white;
+        transition: all 0.5s;
+    }
+
+    .dos{
+        margin: 5px 0;
+    }
+
+    .to-show .dos{
+        opacity: 0;
+    }
+
+    .to-show .uno{
+        -moz-transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .to-show .tres{
+        -moz-transform: rotate(-45deg) translate(6px, -7px);
+    }
+
+    .to-show .navegar-pagina{
+        display: block;
+        transition: all 0.5s;
+    }
+
+    .navbar-navegar{
+        background-color: #001F38;
+        width: 100%;
+    }
+    
+    .navegar-pagina{
+        display: none;
+        padding:0;
+        transition: all 0.5s;
+    }
+    
+    .navbar-navegar .navegar-pagina li.navegar-pagina-item a{
+        display: block;
+        padding: 1.5em 0;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .logo{
+        width: 35%;
+        /*margin-left: -315px;*/
+        display: none;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:767px){ 
+   .oculto-1 {
+       display: none;
+   }
+   .mostrar-1  {
+       display: flex!important;
+   }
+   
+}
+@media screen and (max-width:550px){ 
+    .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+        border: 1px solid #cecece;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        height: auto;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:450px){ 
+    .footer-text {
+        text-align: center;
+    }
+
+    .ventajas-margen {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .margen-ventajas-mov {
+        padding: 10px;
+    }
+    .services-padding {
+        padding: 0px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem .2rem;
+    }
+    
+    h1 {
+        color: white;
+        padding: 150px 0 4px;
+        font-weight: 800;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    h3.subt {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+   
+    .buttonintro {
+        display: block;
+        text-align: center;
+    }
+    .contacto {
+         
+         text-align: center;
+    }
+    .oculto {
+        display: none;
+    }
+    .ocultar-footer-web {
+        display: none;
+    }
+    a.ocultar-3e {
+        display: none;
+    }
+       
+    .mostrar-imagen-servicios {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    p.peque {
+        font-size: 12px;
+    }
+    .centrar {
+        justify-content: center;
+    }
+
+    h3.faq {
+        padding: 0 0 29px 32px;
+    }
+    .mostrar {
+        display: inline-block;
+        text-align: left;
+    }
+    .mostrar-icons {
+        display: inline-block;
+        text-align: left;
+    }
+    h6.ocultar{
+        display: none;
+    }
+  
+    .margen-movil {
+        margin: 10px 10px -35px 0;
+        color: white;
+    }
+
+    footer {
+        padding: 40px 0 0 0;   
+    }  
+}
