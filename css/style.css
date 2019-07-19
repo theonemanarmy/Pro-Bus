@@ -155,13 +155,13 @@ a.color {
     border: 2px solid rgba(224, 49, 50, 1);
     color: white;
     font-size: 15px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: all 0.6s; /* Safari */
+    transition-duration: all 0.6s;
     cursor: pointer;
 }
 .btn-1:hover, .btn-3:hover {
-    background: #001F38;
-    border: #001F38;
+    background: rgba(224, 49, 50, 1);
+    border: rgba(224, 49, 50, 1);
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -193,8 +193,8 @@ a.color {
     background: white;
     border: 2px solid white;
     color: #001F38;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: all 0.6s; /* Safari */
+    transition-duration: all 0.6s;
     cursor: pointer;
    
 }
