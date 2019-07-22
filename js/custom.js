@@ -3,3 +3,7 @@ nav.addEventListener('click', function(){
     'use strict';
     nav.classList.toggle('to-show');
 });
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel();
+});
