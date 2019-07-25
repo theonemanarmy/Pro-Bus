@@ -25,6 +25,29 @@ a:hover {
    cursor: pointer;
   
 }
+.correct{
+    background: green;
+    text-align: center;
+}
+
+.status-fields{
+    background: rgba(224, 49, 50, 1);
+    color: white;
+    animation: wow linear 0.5s 4;
+    text-align: center;
+}
+
+@keyframes wow{
+    0%{
+        transform: translateY(-50);
+    }
+    50%{
+        transform: translateY(+50);
+    }
+    100%{
+        transform: translateY(-50);
+    }
+}
 
 /*navbar 2*/
 .navbar-navegar{

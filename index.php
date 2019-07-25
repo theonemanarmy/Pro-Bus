@@ -97,43 +97,47 @@
                 <div class="col-xs-12 contacto col-sm-7 col-md-5 col-lg-4  ml-auto oculto-1">
                     <h1 class="white text-contact">CONTÁCTANOS</h1>
                     <p class="white text-contact-p">Será un gusto ponernos en contacto contigo</p>
-                    <form id="contact-form" method="post" role="form" action="mail/formulario-contacto.php">
-                        <div class="ajax-hidden">
+                    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contact-form" method="post" role="form">
+                        <div id="mensajeErr-Status" class="correct"></div>
+                        <div class="ajax-hidden"> <!---->
                             <div class="form-group">
                                 <label class="sr-only" for="c_name">Nombre</label>
                                 <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre">
+                                <div id="nombre-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="c_phone">Teléfono </label>
-                                <input type="number" id="c_phone" class="form-control" name="c_phone"
+                                <input type="tel" id="c_phone" class="form-control" name="c_phone"
                                     placeholder="Teléfono">
+                                    <div id="telefono-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="c_email">E-mail </label>
                                 <input type="email" id="c_email" class="form-control" name="c_email"
                                     placeholder="E-mail">
+                                    <div id="email-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
                                 <textarea class="form-control" id="c_message" name="c_message" rows="7"
                                     placeholder="Mensaje"></textarea>
+                                    <div id="mensaje-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
                                 <div class="form-row">
 
 
                                     <div class="col-md-2">
-                                        <input type="checkbox" name="" id="c_terms" class="form-control">
-
+                                        <input type="checkbox" name="c_terms" id="c_terms" class="form-control">
                                     </div>
                                     <div class="col-md-10 align-self-center">
                                         <label for="c_terms">Acepto Política de privacidad </label>
                                     </div>
+                                    <div id="terms-status" class="status-fields"></div>
                                 </div>
                             </div>
-
-                            <button type="submit" class="btn-enviar">
-                                ENVIAR
-                            </button>
+                            
+                            <input type="submit" value="Enviar" id="btn-ajax" class="btn-enviar" name="btn-ajax">
+                            <input type="hidden" name="ajax">
                         </div>
                         <div class="ajax-response"></div>
                     </form>
@@ -381,25 +385,25 @@
 
                     <hr style="border: 2px solid rgba(224, 49, 50, 1); width:20%; margin-bottom: 0px"> <br>
                     <span class="subtitulo-servicios" style="width:60%;">Será un gusto contactarnos contigo.</span>
-                    <form style="padding: 30px 20px;" action="mail/FormularioContacto.php" id="contact-form"
+                    <form style="padding: 30px 20px;" action="" id="contact-form2"
                         method="post" role="form">
                         <div class="ajax-hidden">
                             <div class="form-group">
                                 <label class="sr-only" for="c_name">Nombre</label>
-                                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre">
+                                <input type="text" id="c_name" class="form-control" name="c_name2" placeholder="Nombre">
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="c_phone">Telefono </label>
-                                <input type="number" id="c_phone" class="form-control" name="c_phone"
+                                <input type="number" id="c_phone" class="form-control" name="c_phone2"
                                     placeholder="Telefono">
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="c_email">E-mail </label>
-                                <input type="email" id="c_email" class="form-control" name="c_email"
+                                <input type="email" id="c_email" class="form-control" name="c_email2"
                                     placeholder="E-mail">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="c_message" name="c_message" rows="7"
+                                <textarea class="form-control" id="c_message" name="c_message2" rows="7"
                                     placeholder="Mensaje"></textarea>
                             </div>
 
@@ -549,6 +553,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="js/custom.js"></script>
+        
     <script>
         AOS.init();
     </script>
@@ -560,6 +565,7 @@
             speed: 2000
         });
     </script>
+    
 </body>
 
 </html>
