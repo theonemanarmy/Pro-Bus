@@ -57,4 +57,24 @@ $(document).ready(function(){
 
         return false;
      });
+
+     $('#btn-ajax2').click(function () { 
+        var url = 'mail/formulario-contacto.php';
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $('#contact-form2').serialize(),
+            success: function (data) {
+                $('#nombre-status2').html('');
+                $('#telefono-status2').html('');
+                $('#email-status2').html('');
+                $('#mensaje-status2').html('');
+                $('#terms-status2').html('');
+                $('#mensajeErr-Status2').html(data);//muestra los datos del script de PHP
+            }
+        });
+
+        return false;
+     });
  });

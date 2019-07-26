@@ -13,11 +13,9 @@
     <meta name="author" content="Perla Holguín">
     <title>PROBUS | Una empresa de Transportes Guevara Coronado S.A. de C.V. | Empresa de transporte a empresas, escuelas y viajes especiales. </title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="shortcut icon" href="images/icons/Recurso12.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/simpletextrotator.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
@@ -83,15 +81,14 @@
                 <div class="col-xs-12  col-md-6 ">
                     <h1>Servicio de transporte en Monterrey <br> </h1>
                     <h3 class="subt">
-                        <span class="rotate"> 
-                            Transporte a Empresas | Transporte a Escuelas | Transporte de Viajes especiales 
+                        <span class="rotate">
+                            Transporte a Empresas | Transporte a Escuelas | Transporte de Viajes especiales
                         </span>
                     </h3>
 
 
                     <div class="row centrar">
-                        <a href="tel:+52(81)83654726"> <button class="btn-1 " data-aos="fade-left"
-                                data-aos-duration="1800"> LLÁMANOS</button></a>
+                        <a href="tel:+52(81)83654726"> <button class="btn-1 " data-aos="fade-left" data-aos-duration="1800"> LLÁMANOS</button></a>
                     </div>
                 </div>
                 <div class="col-xs-12 contacto col-sm-7 col-md-5 col-lg-4  ml-auto oculto-1">
@@ -99,7 +96,8 @@
                     <p class="white text-contact-p">Será un gusto ponernos en contacto contigo</p>
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contact-form" method="post" role="form">
                         <div id="mensajeErr-Status" class="correct"></div>
-                        <div class="ajax-hidden"> <!---->
+                        <div class="ajax-hidden">
+                            <!---->
                             <div class="form-group">
                                 <label class="sr-only" for="c_name">Nombre</label>
                                 <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Nombre">
@@ -107,20 +105,17 @@
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="c_phone">Teléfono </label>
-                                <input type="tel" id="c_phone" class="form-control" name="c_phone"
-                                    placeholder="Teléfono">
-                                    <div id="telefono-status" class="status-fields"></div>
+                                <input type="tel" id="c_phone" class="form-control" name="c_phone" placeholder="Teléfono">
+                                <div id="telefono-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="c_email">E-mail </label>
-                                <input type="email" id="c_email" class="form-control" name="c_email"
-                                    placeholder="E-mail">
-                                    <div id="email-status" class="status-fields"></div>
+                                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+                                <div id="email-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="c_message" name="c_message" rows="7"
-                                    placeholder="Mensaje"></textarea>
-                                    <div id="mensaje-status" class="status-fields"></div>
+                                <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje"></textarea>
+                                <div id="mensaje-status" class="status-fields"></div>
                             </div>
                             <div class="form-group">
                                 <div class="form-row">
@@ -130,12 +125,12 @@
                                         <input type="checkbox" name="c_terms" id="c_terms" class="form-control">
                                     </div>
                                     <div class="col-md-10 align-self-center">
-                                        <label for="c_terms">Acepto Política de privacidad </label>
+                                        <label for="c_terms"><a href="privacidad.html" style="color:#0056b3;">Acepto Política de privacidad</a> </label>
                                     </div>
                                     <div id="terms-status" class="status-fields"></div>
                                 </div>
                             </div>
-                            
+
                             <input type="submit" value="Enviar" id="btn-ajax" class="btn-enviar" name="btn-ajax">
                             <input type="hidden" name="ajax">
                         </div>
@@ -239,8 +234,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 oculto-med-arriba">
                     <div class="content-Unidad-fisica">
                         <h2 class="text-left red">TRANSPORTE EJECUTIVO</h2>
-                        <hr
-                            style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
+                        <hr style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
 
                         <img src="images/icons/camion-landing.png" alt="" class="img-responsive">
 
@@ -249,8 +243,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <div class="content-Unidades">
                         <h2 class="text-left white">NUESTRAS UNIDADES</h2>
-                        <hr
-                            style="border: 2px solid rgba(224, 49, 50, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
+                        <hr style="border: 2px solid rgba(224, 49, 50, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
 
                         <h5 class="text-left white">TOYOTA HIACE</h5>
 
@@ -270,8 +263,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 oculto-med-abajo">
                     <div class="content-Unidad-fisica">
                         <h2 class="text-left red">TRANSPORTE EJECUTIVO</h2>
-                        <hr
-                            style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
+                        <hr style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
 
                         <img src="images/icons/camion-landing.png" alt="" class="img-responsive">
 
@@ -283,8 +275,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 oculto-med-arriba">
                     <div class="content-Unidad-fisica">
                         <h2 class="text-left red">TRANSPORTE EJECUTIVO</h2>
-                        <hr
-                            style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
+                        <hr style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
 
                         <img src="images/icons/bus-landing.png" alt="" class="img-responsive">
 
@@ -293,8 +284,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6">
                     <div class="content-Unidades">
                         <h2 class="text-left white">NUESTRAS UNIDADES</h2>
-                        <hr
-                            style="border: 2px solid rgba(224, 49, 50, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
+                        <hr style="border: 2px solid rgba(224, 49, 50, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
 
                         <h6 class="text-left white">Unidades Panorámicas Mercedes Benz</h6>
 
@@ -314,8 +304,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 oculto-med-abajo">
                     <div class="content-Unidad-fisica">
                         <h2 class="text-left red">TRANSPORTE EJECUTIVO</h2>
-                        <hr
-                            style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
+                        <hr style="border: 2px solid rgb(145, 129, 123, 1); width:60%; margin-bottom: 15px; margin-left: 0;">
 
                         <img src="images/icons/bus-landing.png" alt="" class="img-responsive">
 
@@ -385,31 +374,48 @@
 
                     <hr style="border: 2px solid rgba(224, 49, 50, 1); width:20%; margin-bottom: 0px"> <br>
                     <span class="subtitulo-servicios" style="width:60%;">Será un gusto contactarnos contigo.</span>
-                    <form style="padding: 30px 20px;" action="" id="contact-form2"
-                        method="post" role="form">
+                    <form style="padding: 30px 20px;" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contact-form2" method="post" role="form">
                         <div class="ajax-hidden">
+
                             <div class="form-group">
-                                <label class="sr-only" for="c_name">Nombre</label>
-                                <input type="text" id="c_name" class="form-control" name="c_name2" placeholder="Nombre">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="c_phone">Telefono </label>
-                                <input type="number" id="c_phone" class="form-control" name="c_phone2"
-                                    placeholder="Telefono">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="c_email">E-mail </label>
-                                <input type="email" id="c_email" class="form-control" name="c_email2"
-                                    placeholder="E-mail">
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id="c_message" name="c_message2" rows="7"
-                                    placeholder="Mensaje"></textarea>
+                                <label class="sr-only" for="c_name2">Nombre</label>
+                                <input type="text" id="c_name2" class="form-control" name="c_name2" placeholder="Nombre">
+                                <div id="nombre-status2" class="status-fields"></div>
                             </div>
 
-                            <button type="submit" class="btn-enviar">
+                            <div class="form-group">
+                                <label class="sr-only" for="c_phone2">Teléfono </label>
+                                <input type="number" id="c_phone2" class="form-control" name="c_phone2" placeholder="Teléfono">
+                                <div id="telefono-status2" class="status-fields"></div>
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only" for="c_email2">E-mail </label>
+                                <input type="email" id="c_email2" class="form-control" name="c_email2" placeholder="E-mail">
+                                <div id="email-status2" class="status-fields"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="c_message2" name="c_message2" rows="7" placeholder="Mensaje"></textarea>
+                                <div id="mensaje-status2" class="status-fields"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-row">
+
+
+                                    <div class="col-md-2">
+                                        <input type="checkbox" name="c_terms2" id="c_terms2" class="form-control">
+                                    </div>
+                                    <div class="col-md-10 align-self-center">
+                                        <label for="c_terms2"><a href="privacidad.html" style="color:#0056b3;">Acepto Política de privacidad </a></label>
+                                    </div>
+                                    <div id="terms-status2" class="status-fields"></div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-enviar" id="btn-ajax2">
                                 ENVIAR
                             </button>
+                            <div id="mensajeErr-Status2" class="correct"></div>
+                            <input type="hidden" name="ajax2">
                         </div>
                         <div class="ajax-response"></div>
                     </form>
@@ -443,16 +449,14 @@
                     <p class="footer-text oculto white" style="font-size: 0.9em">
                         Enlaces Probus 2019 Todos los derechos reservados.
                         <br>
-                        <a class="color ocultar-3e" href="privacidad.html" target="_blank">Política de privacidad</a> |
-                        Sitio web creado por <a class="color ocultar-3e" href="http://www.3e-digital.com/"
-                            target="_blank">3E-DIGITAL</a>
+                        <a class="color ocultar-3e" href="privacidad.html">Política de privacidad</a> |
+                        Sitio web creado por <a class="color ocultar-3e" href="http://www.3e-digital.com/" target="_blank">3E-DIGITAL</a>
                     </p>
                 </div>
 
 
                 <div class="col-xs-12 col-sm-12 col-md-6 ml-auto margen-movil2 text-center ">
-                    <h3 class="footer footer-text mostrar-imagen-servicios "> <img src="images/icons/Recurso11.png"
-                            width="200" alt=""></h3>
+                    <h3 class="footer footer-text mostrar-imagen-servicios "> <img src="images/icons/Recurso11.png" width="200" alt=""></h3>
 
                     <br>
 
@@ -494,9 +498,7 @@
 
 
                             <li>
-                                <a class="link"
-                                    href="https://api.whatsapp.com/send?phone=8110068894&text=Hola Necesito mas información"
-                                    target="_blank">
+                                <a class="link" href="tel:811024731">
                                     <h5 class="text-left">
                                         <i class="fas fa-mobile-alt"></i> Celular
                                         <br>
@@ -520,7 +522,7 @@
                                 reservados.
                             </p>
                             <p class=" peque">
-                                <a class="color " href="privacidad.html" target="_blank"> Política de
+                                <a class="color" href="privacidad.html"> Política de
                                     Privacidad
                                 </a>
                             </p>
@@ -538,22 +540,16 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="js/jquery.simple-text-rotator.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="js/custom.js"></script>
-        
+
     <script>
         AOS.init();
     </script>
@@ -565,7 +561,7 @@
             speed: 2000
         });
     </script>
-    
+
 </body>
 
 </html>
