@@ -227,7 +227,7 @@
             </div>
 
             <div class="row">
-                <a href="#" class="btn-5">Solicita tu servicio</a>
+                <a href="#contact-form" class="btn-5">Solicita tu servicio</a>
             </div>
         </div>
     </section>
@@ -264,7 +264,7 @@
                             <li><span>-</span> Piso de linoleum</li>
                         </ul>
 
-                        <a href="#" class="btn-5">Solicita tu Cotización</a>
+                        <a href="#contact-form" class="btn-5">Solicita tu Cotización</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 oculto-med-abajo">
@@ -308,7 +308,7 @@
                             <li><span>-</span> Piso de linoleum</li>
                         </ul>
 
-                        <a href="#" class="btn-5">Solicita tu Cotización</a>
+                        <a href="#contact-form" class="btn-5">Solicita tu Cotización</a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 oculto-med-abajo">
@@ -433,14 +433,14 @@
                     <p style="color: rgba(224, 49, 50, 1); font-size: 0.8em;"><b>Una empresa de Transportes Guevara
                             Coronado S.A. de C.V.</b></p>
 
-                    <p class=" footer-text oculto white">
+                    <p class=" footer-text oculto white" style="font-size: 0.9em">
                         Empresa de transporte a empresas, escuelas, viajes especiales
                         (sociales, recreativos, etc), dentro del área metropolitana
                         de Monterrey. Estamos comprometidos con la calidad de nuestros
                         clientes, atención personalizada para adaptarnos a las necesidades
                         que requiera y así ofrecer la mejor propuesta de trabajo.
                     </p>
-                    <p class="footer-text oculto white">
+                    <p class="footer-text oculto white" style="font-size: 0.9em">
                         Enlaces Probus 2019 Todos los derechos reservados.
                         <br>
                         <a class="color ocultar-3e" href="privacidad.html" target="_blank">Política de privacidad</a> |

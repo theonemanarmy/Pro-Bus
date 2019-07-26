@@ -501,6 +501,11 @@ p.transportacion {
 footer {
     background: #001F38;
     padding: 90px 0 70px 0;
+
+}
+
+footer a.link h5{
+    font-size: 0.8em;
 }
 
 footer h3.white{
@@ -514,6 +519,7 @@ footer a.link{
     display: block;
     padding-bottom: 15px;
     color: white;
+    font-size: 1.3em;
 }   
 
 footer a.link:hover{
@@ -525,7 +531,7 @@ footer .img-logo-footer{
 }
 
 footer ul li a h5 span{
-    padding-left: 28px;
+    padding-left: 22px;
 }
 footer .list-footer{
     padding-left: 150px;
