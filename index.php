@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="shortcut icon" href="images/icons/Recurso12.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/icons/fav.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/simpletextrotator.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
@@ -33,9 +33,27 @@
 
                 <ul class="navbar justify-content-xs-end">
                     <li class="nav-item">
-                        <a class="nav-link">
+                        
+                        <img src="images/icons/Recurso12.png" alt="logo" class="logo oculto-logo-lg logo-width"  style="padding: 20px 0 8px 0;">
+                       
+                        <a class="nav-link oculto-more-xs" style="cursor:default;">
                             <span>MÁS DE 10 AÑOS NOS RESPALDAN</span>
                         </a>
+                        <a class="nav-link oculto-email-lg" href="tel:8183654726">
+
+                            <span>
+                                <i class="fas fa-phone"></i>
+                                Llamar
+                            </span>
+
+                        </a>
+                        <a href="mailto:ventas@enlacesprobus.com.mx" class="nav-link oculto-email-lg">
+                            <span>
+                                <i class="fas fa-envelope"></i>
+                                E-mail
+                            </span>
+                        </a>
+
                     </li>
                 </ul>
 
@@ -47,24 +65,26 @@
 
                 <div class="row">
 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                         <div class="logo-espacio">
-                            <img src="images/icons/Recurso12.png" alt="logo" class="logo">
+                            <img src="images/icons/Recurso12.png" alt="logo" class="logo logo-oculto-xs">
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                         <nav id="main-nav" class="main-nav">
 
                             <ul class="navegar-pagina">
                                 <li class="navegar-pagina-item">
-                                    <a href="mailto:ventas@enlacesprobus.com.mx" class="menu-link">
+                                    <a href="mailto:ventas@enlacesprobus.com.mx" class="menu-link oculto-email-xs">
                                         <i class="fas fa-envelope"></i>
                                         ventas@enlacesprobus.com.mx
                                     </a>
+
                                 </li>
 
                             </ul>
+
 
                         </nav>
                     </div>
@@ -78,7 +98,7 @@
 
         <div class="container ">
             <div class="row">
-                <div class="col-xs-12  col-md-6 ">
+                <div class="col-xs-12 col-sm-12 col-md-7">
                     <h1>Servicio de transporte en Monterrey <br> </h1>
                     <h3 class="subt">
                         <span class="rotate">
@@ -86,12 +106,12 @@
                         </span>
                     </h3>
 
-
                     <div class="row centrar">
                         <a href="tel:+52(81)83654726"> <button class="btn-1 " data-aos="fade-left" data-aos-duration="1800"> LLÁMANOS</button></a>
                     </div>
                 </div>
-                <div class="col-xs-12 contacto col-sm-7 col-md-5 col-lg-4  ml-auto oculto-1">
+
+                <div class="col-xs-12 contacto col-sm-12 col-md-5 ml-auto oculto-1">
                     <h1 class="white text-contact">CONTÁCTANOS</h1>
                     <p class="white text-contact-p">Será un gusto ponernos en contacto contigo</p>
                     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contact-form" method="post" role="form">
@@ -121,11 +141,11 @@
                                 <div class="form-row">
 
 
-                                    <div class="col-md-2">
-                                        <input type="checkbox" name="c_terms" id="c_terms" class="form-control">
+                                    <div class="col-md-2 align-self-center">
+                                        <input type="checkbox" name="c_terms" id="c_terms">
                                     </div>
                                     <div class="col-md-10 align-self-center">
-                                        <label for="c_terms"><a href="privacidad.html" style="color:#0056b3;">Acepto Política de privacidad</a> </label>
+                                        <label for="c_terms"><a href="privacidad.html" style="color:white;">Acepto Política de privacidad</a> </label>
                                     </div>
                                     <div id="terms-status" class="status-fields"></div>
                                 </div>
@@ -151,23 +171,23 @@
             <div class="row">
 
                 <div class="col-xs-12 col-sm-12 col-md-1"></div>
-                <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="col-6 col-sm-4 col-md-2">
                     <img src="images/icons/Recurso3.png" alt="" class="img-responsive img-servicios" width="65">
                     <h3 class="white text-center">Empresas</h3>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="col-6 col-sm-4 col-md-2">
                     <img src="images/icons/Recurso2.png" alt="" class="img-responsive img-servicios" width="65">
                     <h3 class="white text-center">Escuelas</h3>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-2">
+                <div class="col-6 col-sm-4 col-md-2">
                     <img src="images/icons/hoteles.png" alt="" class="img-responsive img-servicios" width="65">
                     <h3 class="white text-center">Hoteles</h3>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-2">
+                <div class="col-6 col-sm-6 col-md-2">
                     <img src="images/icons/construccion.png" alt="" class="img-responsive img-servicios" width="65">
                     <h3 class="white text-center">Construcción</h3>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-2">
+                <div class="col-6 col-sm-6 col-md-2">
                     <img src="images/icons/Recurso1.png" alt="" class="img-responsive img-servicios" width="65">
                     <h3 class="white text-center">Viajes especiales</h3>
                 </div>

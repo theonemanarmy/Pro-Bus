@@ -70,12 +70,15 @@ a:hover {
 }
 
 .logo{
-    width: 60%;
+    width: 50%;
     /*margin-left: -315px;*/
     display: block;
     margin-top: 20px;
 }
 
+.logo-width{
+    width: 20%;
+}
 
 
 /*/navbar 2*/
@@ -89,11 +92,12 @@ a:hover {
     background-color: #011B32;
     color: white;
     z-index: 100; 
-    height: 45px;
+    /*height: 45px;*/
     position: relative;
 }
 
 li.nav-item , a.nav-link, .navbar-brand {
+    display:flex;
     color: white;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;   
@@ -114,7 +118,7 @@ li {
 
 /* servicios*/
 .servicios {
-    padding: 30px 0 50px 0;
+    padding: 0 0 70px 0;
 }
 
 .servicios p{
@@ -143,8 +147,10 @@ li {
     margin: auto;
     position: relative;
     background: rgba(224, 49, 50, 1);
-    width: 30%;
-    padding: 10px;
+    width: 250px;
+    height: 40px;
+    line-height: 2.5;
+    /*padding: 10px;*/
     border: rgba(224, 49, 50, 1);
     color: white;
     font-weight: 400;
@@ -162,7 +168,7 @@ li {
 }
 /*---------------- botones ----------------*/
 a.color:hover {
-    color:#001F38;
+    color:rgba(224, 49, 50, 1);
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
@@ -173,7 +179,7 @@ a.color {
     font-weight: 400;
     margin: 50px 0 200px 16px;
     width: 185px;
-    height: 50px;
+    height: 40px;
     background: rgba(224, 49, 50, 1);
     border: 2px solid rgba(224, 49, 50, 1);
     color: white;
@@ -281,7 +287,7 @@ h2.text-center {
 
 .contacto {
     background-color: rgba(147, 143, 165, .7);
-    margin: 70px 30px 70px 0;
+    margin: 70px 0 70px 0;
     padding: 28px;
     border-radius: 10px;
 }
@@ -314,7 +320,7 @@ p.text-contact-p{
   background-position: center;
   background-repeat: no-repeat;
     color: white;
-    padding: 2.5em 0;
+    padding: 70px 0;
 }
 
 .envios h3{
@@ -351,7 +357,7 @@ h1.envios {
     display: none;
 }
 .services-padding {
-    padding: 20px 10px 30px 10px;
+    padding: 30px 10px 30px 10px;
 }
 
 .img-servicios{
@@ -401,7 +407,7 @@ p.transportacion {
 }
 
 .cobertura{
-    padding: 150px 0;
+    padding: 70px 0;
 }
 
 .cobertura .clientes-logo{
@@ -460,8 +466,11 @@ p.transportacion {
     display: block;
     position: relative;
     background: rgba(224, 49, 50, 1);
-    width: 50%;
-    padding: 10px;
+    width: 250px;
+    
+    height: 40px;
+    line-height: 2.5;
+    /*padding: 10px;*/
     border: rgba(224, 49, 50, 1);
     color: white;
     font-weight: 400;
@@ -488,7 +497,6 @@ p.transportacion {
     padding: 30px 0;
 }
 .form-control:hover , .form-control:focus {
-    border: 3px solid #001F38 !important;
     outline-style: none;
     color: #001F38;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -500,8 +508,23 @@ p.transportacion {
 
 footer {
     background: #001F38;
+    background: linear-gradient( to left,
+        rgba(0,0,0, 0.6), 
+        rgba(0,0,0, .2)
+      ), url("../images/icons/fondo-footer.jpg") no-repeat;
+    background-size: cover;
     padding: 90px 0 70px 0;
+    position: relative;
+}
 
+footer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 31, 56, .8);
 }
 
 footer a.link h5{
@@ -550,7 +573,7 @@ h3.footer {
         font-weight: 600;
         margin: 50px 0 80px 0;
         width: 200px;
-        height: 65px;
+        height: 40px;
     }
     h1 {
         color: white;
@@ -641,20 +664,38 @@ h3.footer {
     .logo{
         width: 35%;
         /*margin-left: -315px;*/
-        display: none;
+        /*display: none;*/
         margin-top: 25px;
     }
-    .servicios .btn-5{
-        width: 50%;
+    /*.servicios .btn-5{
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .ventajas .btn-5{
-        width: 80%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }*/
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    footer .list-footer{
+        padding-left: 90px;
     }
+    
 }
 
 @media screen and (min-width: 768px){
     .oculto-med-arriba{
         display: none;
+    }
+     .oculto-email-lg{
+        display: none;
+    }
+    .oculto-logo-lg{
+        display:none;
+    }
+    li.nav-item  a.nav-link.oculto-email-lg {
+        display:none;
     }
 }
 
@@ -677,8 +718,34 @@ h3.footer {
     .content-Unidades{
         margin: 0; 
     }
+    .navbar-navegar .navegar-pagina li.navegar-pagina-item a.oculto-email-xs{
+        display: none;
+    }
+    a.oculto-more-xs{
+        display:none;
+    }
+    .logo-oculto-xs{
+        display:none;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .navbar-navegar{
+        display:none;
+    }
     
-   
+    #nav {
+        background-color: white;
+        color: white;
+        z-index: 100; 
+        position: relative;
+    }
+
+    li.nav-item , a.nav-link, .navbar-brand {
+        color: #001F38;
+        line-height: 3;
+        margin-left: 15px;
+    }
 }
 @media screen and (max-width:550px){ 
     .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
