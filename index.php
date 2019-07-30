@@ -33,9 +33,9 @@
 
                 <ul class="navbar justify-content-xs-end">
                     <li class="nav-item">
-                        
-                        <img src="images/icons/Recurso12.png" alt="logo" class="logo oculto-logo-lg logo-width"  style="padding: 20px 0 8px 0;">
-                       
+
+                        <img src="images/icons/Recurso12.png" alt="logo" class="logo oculto-logo-lg logo-width" style="padding: 20px 0 8px 0;">
+
                         <a class="nav-link oculto-more-xs" style="cursor:default;">
                             <span>MÁS DE 10 AÑOS NOS RESPALDAN</span>
                         </a>
@@ -421,11 +421,11 @@
                                 <div class="form-row">
 
 
-                                    <div class="col-md-2">
-                                        <input type="checkbox" name="c_terms2" id="c_terms2" class="form-control">
+                                    <div class="col-md-2 align-self-center">
+                                        <input type="checkbox" name="c_terms" id="c_terms">
                                     </div>
                                     <div class="col-md-10 align-self-center">
-                                        <label for="c_terms2"><a href="privacidad.html" style="color:#0056b3;">Acepto Política de privacidad </a></label>
+                                        <label for="c_terms"><a href="privacidad.html" style="color: #001F38;">Acepto Política de privacidad</a> </label>
                                     </div>
                                     <div id="terms-status2" class="status-fields"></div>
                                 </div>
