@@ -26,6 +26,7 @@
 </head>
 
 <body>
+    <a href="https://wa.me/528110247316?text=Déjanos%20tu%20mensaje" class="fab fa-whatsapp whats"></a>
 
     <section id="intro">
         <div id="nav">
@@ -39,7 +40,7 @@
                         <a class="nav-link oculto-more-xs" style="cursor:default;">
                             <span>MÁS DE 10 AÑOS NOS RESPALDAN</span>
                         </a>
-                        <a class="nav-link oculto-email-lg" href="tel:8183654726">
+                        <a class="nav-link oculto-email-lg" href="tel:8110247316">
 
                             <span>
                                 <i class="fas fa-phone"></i>
@@ -107,7 +108,7 @@
                     </h3>
 
                     <div class="row centrar">
-                        <a href="tel:+52(81)83654726"> <button class="btn-1 " data-aos="fade-left" data-aos-duration="1800"> LLÁMANOS</button></a>
+                        <a href="tel:8110247316"> <button class="btn-1 " data-aos="fade-left" data-aos-duration="1800"> LLÁMANOS</button></a>
                     </div>
                 </div>
 
@@ -137,19 +138,12 @@
                                 <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Mensaje"></textarea>
                                 <div id="mensaje-status" class="status-fields"></div>
                             </div>
-                            <div class="form-group">
-                                <div class="form-row">
+                            <div class="form-check">
+                                <input type="checkbox" name="c_terms" id="cterms" class="form-check-input">
+                                <label for="cterms" class="form-check-label">Acepto Política de Privacidad</label>
 
-
-                                    <div class="col-md-2 align-self-center">
-                                        <input type="checkbox" name="c_terms" id="c_terms">
-                                    </div>
-                                    <div class="col-md-10 align-self-center">
-                                        <label for="c_terms"><a href="privacidad.html" style="color:white;">Acepto Política de privacidad</a> </label>
-                                    </div>
-                                    <div id="terms-status" class="status-fields"></div>
-                                </div>
                             </div>
+                            <div id="terms-status" class="status-fields"></div>
 
                             <input type="submit" value="Enviar" id="btn-ajax" class="btn-enviar" name="btn-ajax">
                             <input type="hidden" name="ajax">
@@ -417,19 +411,11 @@
                                 <textarea class="form-control" id="c_message2" name="c_message2" rows="7" placeholder="Mensaje"></textarea>
                                 <div id="mensaje-status2" class="status-fields"></div>
                             </div>
-                            <div class="form-group">
-                                <div class="form-row">
-
-
-                                    <div class="col-md-2 align-self-center">
-                                        <input type="checkbox" name="c_terms" id="c_terms">
-                                    </div>
-                                    <div class="col-md-10 align-self-center">
-                                        <label for="c_terms"><a href="privacidad.html" style="color: #001F38;">Acepto Política de privacidad</a> </label>
-                                    </div>
-                                    <div id="terms-status2" class="status-fields"></div>
-                                </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="c_terms" id="cterms2" class="form-check-input">
+                                <label for="cterms2" class="form-check-label" style="color:rgba(0, 74, 115, 1);">Acepto Política de privacidad</label>
                             </div>
+                            <div id="terms-status2" class="status-fields"></div>
 
                             <button type="submit" class="btn-enviar" id="btn-ajax2">
                                 ENVIAR
@@ -518,11 +504,11 @@
 
 
                             <li>
-                                <a class="link" href="tel:811024731">
+                                <a class="link" href="tel:8110247316">
                                     <h5 class="text-left">
                                         <i class="fas fa-mobile-alt"></i> Celular
                                         <br>
-                                        <span>81 1024-7316</span>
+                                        <span>81 1024 7316</span>
                                     </h5>
                                 </a>
                             </li>

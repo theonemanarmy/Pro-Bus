@@ -17,6 +17,29 @@ h1 {
     font-weight: 800;
     font-size: 50px;
 }
+.whats{
+    display: block;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 7px 0;
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+	background: rgba(37,211,102 ,1 );
+	color: #fff;
+	text-align: center;
+	transition: all .5s;
+    z-index: 150;   
+    font-size: 2em;
+    line-height: 1;
+}
+
+.whats:hover{
+	cursor: pointer;
+	background: #fff;
+	color: rgba(37,211,102 ,1 );
+}
 
 a:hover {
    text-decoration: none;
@@ -293,6 +316,10 @@ h2.text-center {
 }
 .contacto .contact-texto{
     line-height: 1.6;
+}
+.form-check-label{
+    margin: 0 0 .5rem 0;
+    color:white;
 }
 
 h2.cont {
