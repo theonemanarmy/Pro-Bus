@@ -35,7 +35,7 @@
                 <ul class="navbar justify-content-xs-end">
                     <li class="nav-item">
 
-                        <img src="images/icons/Recurso12.png" alt="logo" class="logo oculto-logo-lg logo-width" style="padding: 20px 0 8px 0;">
+                        <img src="images/icons/Recurso12.png" alt="logotipo de enlaces probus" class="logo oculto-logo-lg logo-width" style="padding: 20px 0 8px 0;">
 
                         <a class="nav-link oculto-more-xs" style="cursor:default;">
                             <span>MÁS DE 10 AÑOS NOS RESPALDAN</span>
@@ -428,8 +428,8 @@
 
                 </div>
 
-                <div>
-                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -489,29 +489,18 @@
 
 
                             <li>
-                                <a class="link" href="tel:8183654726">
+                                <a class="link" href="tel:8110247316">
                                     <h5 class="text-left">
                                         <i class="fas fa-phone"></i>
                                         Teléfono
                                         <br>
-                                        <span> 81 8365-4726</span>
+                                        <span> 81 1024 7316</span>
                                     </h5>
 
 
                                 </a>
                             </li>
 
-
-
-                            <li>
-                                <a class="link" href="tel:8110247316">
-                                    <h5 class="text-left">
-                                        <i class="fas fa-mobile-alt"></i> Celular
-                                        <br>
-                                        <span>81 1024 7316</span>
-                                    </h5>
-                                </a>
-                            </li>
                         </ul>
 
 
